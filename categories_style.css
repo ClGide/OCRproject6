@@ -1,0 +1,19 @@
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    grid-gap: 3px;
+    overflow-y: scroll;
+}
+
+.presentation-box {
+    grid-column: 2/12;
+    grid-row: auto/span 2;
+    height: 20vh;
+    width: 25vw;
+    border:var(--border-value);    
+}
+
+.category--name {
+    font-style: italic;
+}

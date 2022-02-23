@@ -1,0 +1,64 @@
+:root {
+    --primary-color: rgb(134, 42, 42);
+    --secondary-color: rgb(161, 132, 69);
+    --tertiary-color: rgb(62, 73, 58);
+    --border-value: 0.25em solid black;    
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1rem;    
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+.header {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+h3 {
+    margin-left: 10vw;
+}
+
+
+/* if needed, here should come a main selector */
+
+#box {
+    display:flex;
+    border: var(--border-value);
+    border-radius: 1em;
+}
+
+.best-movie > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-movie {
+    display: grid;
+    height: 25vh;
+    width: 80vw;
+    border: var(--border-value);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 3px;
+    margin:1em 10vh;
+}
+
+#best-movie--title {
+    grid-column: 1/2;
+    font-weight: 900;
+
+}
+
+#best-movie--summary {
+    grid-column: 2/4;
+}
+
+#best-movie--image {
+    grid-column: 10/12;
+}
