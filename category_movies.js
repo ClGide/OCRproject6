@@ -81,17 +81,5 @@ async function fetchDetailsShowMovies(ResAndCat) {
     } else {
         console.log("waiting for the second row of fetches")
     } 
-    /** 
-            //const {genres, description,
-            //       date_published, rated, imdb_score,
-            //       directors, actors, duration, 
-            //       countries, worldwide_gross_income, long_description} = sevenResultsModal[index];
-            
-            //const summaryNode = document.createTextNode("lorem ipsum");
-            //summaryEl.appendChild(summaryNode); //adds content to the predefined one in HTML, what we want is to REPLACE it. 
-
-            //console.log(duration)
-
-    */
 };
 
