@@ -3,5 +3,4 @@ import {getCategoryMovies} from "./category_movies.js"
 
 
 let tenResults = [];
-let sevenResultsModal = [];
-getCategoryMovies([bestDramaMoviesQuery, "drama--pres", tenResults, sevenResultsModal]);
+getCategoryMovies([bestDramaMoviesQuery, "drama--pres", tenResults]);
