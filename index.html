@@ -7,229 +7,816 @@
     <link href="/favicon.ico" type="image/x-icon" rel="icon"/>
     <link href="best_movie_style.css" rel="stylesheet" type="text/css">
     <link href="categories_style.css" rel="stylesheet" type="text/css">
+    <link href="modal_window_style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
+
+
     <div class="header">
         <div class="header--title"><h2>Just Stream it</h2></div>
         <div class="header--links"><a src="#"><h3>Home</h3></a></div>
         <div class="header--links"><a src="#"><h3>Categories</h3></div>
     </div>
     
+
+
+
     <div class="main">
+
         <div class="best-movie" id="box">
-            <div class="best-movie1--title" id="best-movie--title">Title</div>
-            <div class="best-movie1--summary" id="best-movie--summary"></div>
-            <img src="godfather.jfif" alt="best rated movie on IMDB" class="best-movie1--image" id="best-movie--image">
+            <div class="best-movie--pres1--title" id="best-movie--title">Title</div>
+            <div class="best-movie--pres1--summary" id="best-movie--summary"></div>
+            <img src="godfather.jfif" alt="best rated movie on IMDB" class="best-movie--pres1--image" id="best-movie--image">
+            <button class="btn-open">see info</button>
         </div>
+
+        <div class="modal">
+            <div class="modal--best-movie1 modal--content">
+                <img src="#" alt="best rated movie on IMDB" class="modal--best-movie1--image">
+                <div class="modal--best-movie1--title">title: </div>
+                <div class="modal--best-movie1--genre">genre: </div>
+                <div class="modal--best-movie1--date">release date: </div>
+                <div class="modal--best-movie1--MPAA">rated: </div>
+                <div class="modal--best-movie1--IMDB">IMDB score: </div>
+                <div class="modal--best-movie1--directors">directors: </div>
+                <div class="modal--best-movie1--actors">actors: </div>
+                <div class="modal--best-movie1--duration">duration: </div>
+                <div class="modal--best-movie1--country-of-origin">countries: </div>
+                <div class="modal--best-movie1--box-office">box-office: </div>
+                <div class="modal--best-movie1--full-description">description: </div>                
+                <button class="btn-closed">Close me</button>
+            </div>
+        </div>
+
+
 
         <div class="category-name"><h2>best-movies</h2></div>
         <div class="category-container" id="box">
             <div class="best-movies--pres1 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres1--image">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres1--image">
                 <div class="best-movies--pres1--title"><h3>Title</h3></div>
                 <div class="best-movies--pres1--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+            
+            <div class="modal">
+                <div class="modal--best-movies1 modal--content">
+                    <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies1--image">
+                    <div class="modal--best-movies1--title">title: </div>
+                    <div class="modal--best-movies1--genre">genre: </div>
+                    <div class="modal--best-movies1--date">release date: </div>
+                    <div class="modal--best-movies1--MPAA">rated: </div>
+                    <div class="modal--best-movies1--IMDB">IMDB score: </div>
+                    <div class="modal--best-movies1--directors">directors: </div>
+                    <div class="modal--best-movies1--actors">actors: </div>
+                    <div class="modal--best-movies1--duration">duration: </div>
+                    <div class="modal--best-movies1--country-of-origin">countries: </div>
+                    <div class="modal--best-movies1--box-office">box-office: </div>
+                    <div class="modal--best-movies1--full-description">description: </div>                
+                        <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+
 
             <div class="best-movies--pres2 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres2--image">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres2--image">
                 <div class="best-movies--pres2--title"><h3>Title</h3></div>
-                <div class="best-movies--pres2--summary">
-                </div>    
+                <div class="best-movies--pres2--summary"></div>
+                <button class="btn-open">see info</button>    
             </div>
+
+            <div class="modal">
+                <div class="modal--best-movies2 modal--content">
+                    <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies2--image">
+                    <div class="modal--best-movies2--title">title: </div>
+                    <div class="modal--best-movies2--genre">genre: </div>
+                    <div class="modal--best-movies2--date">release date: </div>
+                    <div class="modal--best-movies2--MPAA">rated: </div>
+                    <div class="modal--best-movies2--IMDB">IMDB score: </div>
+                    <div class="modal--best-movies2--directors">directors: </div>
+                    <div class="modal--best-movies2--actors">actors: </div>
+                    <div class="modal--best-movies2--duration">duration: </div>
+                    <div class="modal--best-movies2--country-of-origin">countries: </div>
+                    <div class="modal--best-movies2--box-office">box-office: </div>
+                    <div class="modal--best-movies2--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+
 
             <div class="best-movies--pres3 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres3--image">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres3--image">
                 <div class="best-movies--pres3--title"><h3>Title</h3></div>
                 <div class="best-movies--pres3--summary">
-                </div>    
-            </div>
-            
-            <div class="best-movies--pres4 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres4--image">
-                <div class="best-movies--pres4--title"><h3>Title</h3></div>
-                <div class="best-movies--pres4--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--best-movies3 modal--content">
+                    <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies3--image">
+                    <div class="modal--best-movies3--title">title: </div>
+                    <div class="modal--best-movies3--genre">genre: </div>
+                    <div class="modal--best-movies3--date">release date: </div>
+                    <div class="modal--best-movies3--MPAA">rated: </div>
+                    <div class="modal--best-movies3--IMDB">IMDB score: </div>
+                    <div class="modal--best-movies3--directors">directors: </div>
+                    <div class="modal--best-movies3--actors">actors: </div>
+                    <div class="modal--best-movies3--duration">duration: </div>
+                    <div class="modal--best-movies3--country-of-origin">countries: </div>
+                    <div class="modal--best-movies3--box-office">box-office: </div>
+                    <div class="modal--best-movies3--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+
+
+            <div class="best-movies--pres4 presentation-box">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres4--image">
+                <div class="best-movies--pres4--title"><h3>Title</h3></div>
+                <div class="best-movies--pres4--summary">
+                <button class="btn-open">see info</button>
+                </div>    
+            </div>
+
+            <div class="modal">
+                <div class="modal--best-movies4 modal--content">
+                    <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies4--image">
+                    <div class="modal--best-movies4--title">title: </div>
+                    <div class="modal--best-movies4--genre">genre: </div>
+                    <div class="modal--best-movies4--date">release date: </div>
+                    <div class="modal--best-movies4--MPAA">rated: </div>
+                    <div class="modal--best-movies4--IMDB">IMDB score: </div>
+                    <div class="modal--best-movies4--directors">directors: </div>
+                    <div class="modal--best-movies4--actors">actors: </div>
+                    <div class="modal--best-movies4--duration">duration: </div>
+                    <div class="modal--best-movies4--country-of-origin">countries: </div>
+                    <div class="modal--best-movies4--box-office">box-office: </div>
+                    <div class="modal--best-movies4--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+
+
             <div class="best-movies--pres5 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres5--image">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres5--image">
                 <div class="best-movies--pres5--title"><h3>Title</h3></div>
                 <div class="best-movies--pres5--summary">
+                <button class="btn-open">see info</button>    
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--best-movies5 modal--content">
+                    <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies5--image">
+                    <div class="modal--best-movies5--title">title: </div>
+                    <div class="modal--best-movies5--genre">genre: </div>
+                    <div class="modal--best-movies5--date">release date: </div>
+                    <div class="modal--best-movies5--MPAA">rated: </div>
+                    <div class="modal--best-movies5--IMDB">IMDB score: </div>
+                    <div class="modal--best-movies5--directors">directors: </div>
+                    <div class="modal--best-movies5--actors">actors: </div>
+                    <div class="modal--best-movies5--duration">duration: </div>
+                    <div class="modal--best-movies5--country-of-origin">countries: </div>
+                    <div class="modal--best-movies5--box-office">box-office: </div>
+                    <div class="modal--best-movies5--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+
             
             <div class="best-movies--pres6 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres6--image">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres6--image">
                 <div class="best-movies--pres6--title"><h3>Title</h3></div>
                 <div class="best-movies--pres6--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
             
+            <div class="modal">
+                <div class="modal--best-movies6 modal--content">
+                    <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies6--image">
+                    <div class="modal--best-movies6--title">title: </div>
+                    <div class="modal--best-movies6--genre">genre: </div>
+                    <div class="modal--best-movies6--date">release date: </div>
+                    <div class="modal--best-movies6--MPAA">rated: </div>
+                    <div class="modal--best-movies6--IMDB">IMDB score: </div>
+                    <div class="modal--best-movies6--directors">directors: </div>
+                    <div class="modal--best-movies6--actors">actors: </div>
+                    <div class="modal--best-movies6--duration">duration: </div>
+                    <div class="modal--best-movies6--country-of-origin">countries: </div>
+                    <div class="modal--best-movies6--box-office">box-office: </div>
+                    <div class="modal--best-movies6--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+
+
             <div class="best-movies--pres7 presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="best-movies--pres7--image">
+                <img src="#" alt="one of the best rated movies on IMDB" class="best-movies--pres7--image">
                 <div class="best-movies--pres7--title"><h3>Title</h3></div>
                 <div class="best-movies--pres7--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
         </div>
+
+        <div class="modal">
+            <div class="modal--best-movies7 modal--content">
+                <img src="#" alt="one of the best rated movies on IMDB" class="modal--best-movies7--image">
+                <div class="modal--best-movies7--title">title: </div>
+                <div class="modal--best-movies7--genre">genre: </div>
+                <div class="modal--best-movies7--date">release date: </div>
+                <div class="modal--best-movies7--MPAA">rated: </div>
+                <div class="modal--best-movies7--IMDB">IMDB score: </div>
+                <div class="modal--best-movies7--directors">directors: </div>
+                <div class="modal--best-movies7--actors">actors: </div>
+                <div class="modal--best-movies7--duration">duration: </div>
+                <div class="modal--best-movies7--country-of-origin">countries: </div>
+                <div class="modal--best-movies7--box-office">box-office: </div>
+                <div class="modal--best-movies7--full-description">description: </div>                
+                <button class="btn-closed">Close me</button>
+            </div>
+        </div>
+
 
         <div class="category-name"><h2>thriller</h2></div>
         <div class="category-container" id="box">
             <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres1--image">
+                <img src="#" alt="thriler movie" class="thriller--pres1--image">
                 <div class="thriller--pres1--title"><h3>Title</h3></div>
                 <div class="thriller--pres1--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--thriller1 modal--content">
+                    <img src="#" alt="thriller movie" class="modal--thriller1--image">
+                    <div class="modal--thriller1--title">title: </div>
+                    <div class="modal--thriller1--genre">genre: </div>
+                    <div class="modal--thriller1--date">release date: </div>
+                    <div class="modal--thriller1--MPAA">rated: </div>
+                    <div class="modal--thriller1--IMDB">IMDB score: </div>
+                    <div class="modal--thriller1--directors">directors: </div>
+                    <div class="modal--thriller1--actors">actors: </div>
+                    <div class="modal--thriller1--duration">duration: </div>
+                    <div class="modal--thriller1--country-of-origin">countries: </div>
+                    <div class="modal--thriller1--box-office">box-office: </div>
+                    <div class="modal--thriller1--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+    
+
             <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres2--image">
+                <img src="#" alt="thriller movie" class="thriller--pres2--image">
                 <div class="thriller--pres2--title"><h3>Title</h3></div>
                 <div class="thriller--pres2--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--thriller2 modal--content">
+                    <img src="#" alt="thriller movie" class="modal--thriller2--image">
+                    <div class="modal--thriller2--title">title: </div>
+                    <div class="modal--thriller2--genre">genre: </div>
+                    <div class="modal--thriller2--date">release date: </div>
+                    <div class="modal--thriller2--MPAA">rated: </div>
+                    <div class="modal--thriller2--IMDB">IMDB score: </div>
+                    <div class="modal--thriller2--directors">directors: </div>
+                    <div class="modal--thriller2--actors">actors: </div>
+                    <div class="modal--thriller2--duration">duration: </div>
+                    <div class="modal--thriller2--country-of-origin">countries: </div>
+                    <div class="modal--thriller2--box-office">box-office: </div>
+                    <div class="modal--thriller2--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+            
             <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres3--image">
+                <img src="#" alt="thriller movie" class="thriller--pres3--image">
                 <div class="thriller--pres3--title"><h3>Title</h3></div>
                 <div class="thriller--pres3--summary">
-                </div>    
-            </div>
-            
-            <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres4--image">
-                <div class="thriller--pres4--title"><h3>Title</h3></div>
-                <div class="thriller--pres4--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--thriller3 modal--content">
+                    <img src="#" alt="thriller movie" class="modal--thriller3--image">
+                    <div class="modal--thriller3--title">title: </div>
+                    <div class="modal--thriller3--genre">genre: </div>
+                    <div class="modal--thriller3--date">release date: </div>
+                    <div class="modal--thriller3--MPAA">rated: </div>
+                    <div class="modal--thriller3--IMDB">IMDB score: </div>
+                    <div class="modal--thriller3--directors">directors: </div>
+                    <div class="modal--thriller3--actors">actors: </div>
+                    <div class="modal--thriller3--duration">duration: </div>
+                    <div class="modal--thriller3--country-of-origin">countries: </div>
+                    <div class="modal--thriller3--box-office">box-office: </div>
+                    <div class="modal--thriller3--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+
             <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres5--image">
+                <img src="#" alt="thriller movie" class="thriller--pres4--image">
+                <div class="thriller--pres4--title"><h3>Title</h3></div>
+                <div class="thriller--pres4--summary">
+                <button class="btn-open">see info</button>
+                </div>    
+            </div>
+
+            <div class="modal">
+                <div class="modal--thriller4 modal--content">
+                    <img src="#" alt="thriller movie" class="modal--thriller4--image">
+                    <div class="modal--thriller4--title">title: </div>
+                    <div class="modal--thriller4--genre">genre: </div>
+                    <div class="modal--thriller4--date">release date: </div>
+                    <div class="modal--thriller4--MPAA">rated: </div>
+                    <div class="modal--thriller4--IMDB">IMDB score: </div>
+                    <div class="modal--thriller4--directors">directors: </div>
+                    <div class="modal--thriller4--actors">actors: </div>
+                    <div class="modal--thriller4--duration">duration: </div>
+                    <div class="modal--thriller4--country-of-origin">countries: </div>
+                    <div class="modal--thriller4--box-office">box-office: </div>
+                    <div class="modal--thriller4--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+            
+            <div class="thriller--pres presentation-box">
+                <img src="#" alt="thriller movie" class="thriller--pres5--image">
                 <div class="thriller--pres5--title"><h3>Title</h3></div>
                 <div class="thriller--pres5--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--thriller5 modal--content">
+                    <img src="#" alt="thriller movie" class="modal--thriller5--image">
+                    <div class="modal--thriller5--title">title: </div>
+                    <div class="modal--thriller5--genre">genre: </div>
+                    <div class="modal--thriller5--date">release date: </div>
+                    <div class="modal--thriller5--MPAA">rated: </div>
+                    <div class="modal--thriller5--IMDB">IMDB score: </div>
+                    <div class="modal--thriller5--directors">directors: </div>
+                    <div class="modal--thriller5--actors">actors: </div>
+                    <div class="modal--thriller5--duration">duration: </div>
+                    <div class="modal--thriller5--country-of-origin">countries: </div>
+                    <div class="modal--thriller5--box-office">box-office: </div>
+                    <div class="modal--thriller5--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>            
             
             <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres6--image">
+                <img src="#" alt="thriller movie" class="thriller--pres6--image">
                 <div class="thriller--pres6--title"><h3>Title</h3></div>
                 <div class="thriller--pres6--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--thriller6 modal--content">
+                    <img src="#" alt="thriller movie" class="modal--thriller6--image">
+                    <div class="modal--thriller6--title">title: </div>
+                    <div class="modal--thriller6--genre">genre: </div>
+                    <div class="modal--thriller6--date">release date: </div>
+                    <div class="modal--thriller6--MPAA">rated: </div>
+                    <div class="modal--thriller6--IMDB">IMDB score: </div>
+                    <div class="modal--thriller6--directors">directors: </div>
+                    <div class="modal--thriller6--actors">actors: </div>
+                    <div class="modal--thriller6--duration">duration: </div>
+                    <div class="modal--thriller6--country-of-origin">countries: </div>
+                    <div class="modal--thriller6--box-office">box-office: </div>
+                    <div class="modal--thriller6--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
             
             <div class="thriller--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="thriller--pres7--image">
+                <img src="#" alt="thriller movie" class="thriller--pres7--image">
                 <div class="thriller--pres7--title"><h3>Title</h3></div>
                 <div class="thriller--pres7--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
         </div>
 
+        <div class="modal">
+            <div class="modal--thriller7 modal--content">
+                <img src="#" alt="thriller movie" class="modal--thriller7--image">
+                <div class="modal--thriller7--title">title: </div>
+                <div class="modal--thriller7--genre">genre: </div>
+                <div class="modal--thriller7--date">release date: </div>
+                <div class="modal--thriller7--MPAA">rated: </div>
+                <div class="modal--thriller7--IMDB">IMDB score: </div>
+                <div class="modal--thriller7--directors">directors: </div>
+                <div class="modal--thriller7--actors">actors: </div>
+                <div class="modal--thriller7--duration">duration: </div>
+                <div class="modal--thriller7--country-of-origin">countries: </div>
+                <div class="modal--thriller7--box-office">box-office: </div>
+                <div class="modal--thriller7--full-description">description: </div>                
+                <button class="btn-closed">Close me</button>
+            </div>
+        </div>
+        
+        
         <div class="category-name"><h2>scifi</h2></div>
         <div class="category-container" id="box">
             <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres1--image">
+                <img src="#" alt="one of the best rated scifi movies on IMDB" class="scifi--pres1--image">
                 <div class="scifi--pres1--title"><h3>Title</h3></div>
                 <div class="scifi--pres1--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--scifi1 modal--content">
+                    <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi1--image">
+                    <div class="modal--scifi1--title">title: </div>
+                    <div class="modal--scifi1--genre">genre: </div>
+                    <div class="modal--scifi1--date">release date: </div>
+                    <div class="modal--scifi1--MPAA">rated: </div>
+                    <div class="modal--scifi1--IMDB">IMDB score: </div>
+                    <div class="modal--scifi1--directors">directors: </div>
+                    <div class="modal--scifi1--actors">actors: </div>
+                    <div class="modal--scifi1--duration">duration: </div>
+                    <div class="modal--scifi1--country-of-origin">countries: </div>
+                    <div class="modal--scifi1--box-office">box-office: </div>
+                    <div class="modal--scifi1--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+        
             <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres2--image">
+                <img src="#" alt="one of the best rated scifi movie on IMDB" class="scifi--pres2--image">
                 <div class="scifi--pres2--title"><h3>Title</h3></div>
                 <div class="scifi--pres2--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--scifi2 modal--content">
+                    <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi2--image">
+                    <div class="modal--scifi2--title">title: </div>
+                    <div class="modal--scifi2--genre">genre: </div>
+                    <div class="modal--scifi2--date">release date: </div>
+                    <div class="modal--scifi2--MPAA">rated: </div>
+                    <div class="modal--scifi2--IMDB">IMDB score: </div>
+                    <div class="modal--scifi2--directors">directors: </div>
+                    <div class="modal--scifi2--actors">actors: </div>
+                    <div class="modal--scifi2--duration">duration: </div>
+                    <div class="modal--scifi2--country-of-origin">countries: </div>
+                    <div class="modal--scifi2--box-office">box-office: </div>
+                    <div class="modal--scifi2--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+        
             <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres3--image">
+                <img src="#" alt="one of the best rated scifi movie on IMDB" class="scifi--pres3--image">
                 <div class="scifi--pres3--title"><h3>Title</h3></div>
                 <div class="scifi--pres3--summary">
-                </div>    
-            </div>
-            
-            <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres4--image">
-                <div class="scifi--pres4--title"><h3>Title</h3></div>
-                <div class="scifi--pres4--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--scifi3 modal--content">
+                    <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi3--image">
+                    <div class="modal--scifi3--title">title: </div>
+                    <div class="modal--scifi3--genre">genre: </div>
+                    <div class="modal--scifi3--date">release date: </div>
+                    <div class="modal--scifi3--MPAA">rated: </div>
+                    <div class="modal--scifi3--IMDB">IMDB score: </div>
+                    <div class="modal--scifi3--directors">directors: </div>
+                    <div class="modal--scifi3--actors">actors: </div>
+                    <div class="modal--scifi3--duration">duration: </div>
+                    <div class="modal--scifi3--country-of-origin">countries: </div>
+                    <div class="modal--scifi3--box-office">box-office: </div>
+                    <div class="modal--scifi3--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+                   
             <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres5--image">
+                <img src="#" alt="one of the best rated scifi movie on IMDB" class="scifi--pres4--image">
+                <div class="scifi--pres4--title"><h3>Title</h3></div>
+                <div class="scifi--pres4--summary">
+                <button class="btn-open">see info</button>
+                </div>    
+            </div>
+
+            <div class="modal">
+                <div class="modal--scifi4 modal--content">
+                    <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi4--image">
+                    <div class="modal--scifi4--title">title: </div>
+                    <div class="modal--scifi4--genre">genre: </div>
+                    <div class="modal--scifi4--date">release date: </div>
+                    <div class="modal--scifi4--MPAA">rated: </div>
+                    <div class="modal--scifi4--IMDB">IMDB score: </div>
+                    <div class="modal--scifi4--directors">directors: </div>
+                    <div class="modal--scifi4--actors">actors: </div>
+                    <div class="modal--scifi4--duration">duration: </div>
+                    <div class="modal--scifi4--country-of-origin">countries: </div>
+                    <div class="modal--scifi4--box-office">box-office: </div>
+                    <div class="modal--scifi4--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+        
+            <div class="scifi--pres presentation-box">
+                <img src="#" alt="one of the best rated scifi movie on IMDB" class="scifi--pres5--image">
                 <div class="scifi--pres5--title"><h3>Title</h3></div>
                 <div class="scifi--pres5--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--scifi5 modal--content">
+                    <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi5--image">
+                    <div class="modal--scifi5--title">title: </div>
+                    <div class="modal--scifi5--genre">genre: </div>
+                    <div class="modal--scifi5--date">release date: </div>
+                    <div class="modal--scifi5--MPAA">rated: </div>
+                    <div class="modal--scifi5--IMDB">IMDB score: </div>
+                    <div class="modal--scifi5--directors">directors: </div>
+                    <div class="modal--scifi5--actors">actors: </div>
+                    <div class="modal--scifi5--duration">duration: </div>
+                    <div class="modal--scifi5--country-of-origin">countries: </div>
+                    <div class="modal--scifi5--box-office">box-office: </div>
+                    <div class="modal--scifi5--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
             
             <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres6--image">
+                <img src="#" alt="one of the best rated scifi movie on IMDB" class="scifi--pres6--image">
                 <div class="scifi--pres6--title"><h3>Title</h3></div>
                 <div class="scifi--pres6--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--scifi6 modal--content">
+                    <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi6--image">
+                    <div class="modal--scifi6--title">title: </div>
+                    <div class="modal--scifi6--genre">genre: </div>
+                    <div class="modal--scifi6--date">release date: </div>
+                    <div class="modal--scifi6--MPAA">rated: </div>
+                    <div class="modal--scifi6--IMDB">IMDB score: </div>
+                    <div class="modal--scifi6--directors">directors: </div>
+                    <div class="modal--scifi6--actors">actors: </div>
+                    <div class="modal--scifi6--duration">duration: </div>
+                    <div class="modal--scifi6--country-of-origin">countries: </div>
+                    <div class="modal--scifi6--box-office">box-office: </div>
+                    <div class="modal--scifi6--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
             
+                    
             <div class="scifi--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="scifi--pres7--image">
+                <img src="#" alt="one of the best rated scifi movie on IMDB" class="scifi--pres7--image">
                 <div class="scifi--pres7--title"><h3>Title</h3></div>
                 <div class="scifi--pres7--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
         </div>
 
+        <div class="modal">
+            <div class="modal--scifi7 modal--content">
+                <img src="#" alt="one of the best rated scifi movies on IMDB" class="modal--scifi7--image">
+                <div class="modal--scifi7--title">title: </div>
+                <div class="modal--scifi7--genre">genre: </div>
+                <div class="modal--scifi7--date">release date: </div>
+                <div class="modal--scifi7--MPAA">rated: </div>
+                <div class="modal--scifi7--IMDB">IMDB score: </div>
+                <div class="modal--scifi7--directors">directors: </div>
+                <div class="modal--scifi7--actors">actors: </div>
+                <div class="modal--scifi7--duration">duration: </div>
+                <div class="modal--scifi7--country-of-origin">countries: </div>
+                <div class="modal--scifi7--box-office">box-office: </div>
+                <div class="modal--scifi7--full-description">description: </div>                
+                <button class="btn-closed">Close me</button>
+            </div>
+        </div>
+        
+    
         <div class="category-name"><h2>drama</h2></div>
         <div class="category-container" id="box">
             <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres1--image">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres1--image">
                 <div class="drama--pres1--title"><h3>Title</h3></div>
                 <div class="drama--pres1--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--drama1 modal--content">
+                    <img src="#" alt="one of the highest rated drama movies" class="modal--drama1--image">
+                    <div class="modal--drama1--title">title: </div>
+                    <div class="modal--drama1--genre">genre: </div>
+                    <div class="modal--drama1--date">release date: </div>
+                    <div class="modal--drama1--MPAA">rated: </div>
+                    <div class="modal--drama1--IMDB">IMDB score: </div>
+                    <div class="modal--drama1--directors">directors: </div>
+                    <div class="modal--drama1--actors">actors: </div>
+                    <div class="modal--drama1--duration">duration: </div>
+                    <div class="modal--drama1--country-of-origin">countries: </div>
+                    <div class="modal--drama1--box-office">box-office: </div>
+                    <div class="modal--drama1--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+        
             <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres2--image">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres2--image">
                 <div class="drama--pres2--title"><h3>Title</h3></div>
                 <div class="drama--pres2--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--drama2 modal--content">
+                    <img src="#" alt="one of the highest rated drama movies" class="modal--drama2--image">
+                    <div class="modal--drama2--title">title: </div>
+                    <div class="modal--drama2--genre">genre: </div>
+                    <div class="modal--drama2--date">release date: </div>
+                    <div class="modal--drama2--MPAA">rated: </div>
+                    <div class="modal--drama2--IMDB">IMDB score: </div>
+                    <div class="modal--drama2--directors">directors: </div>
+                    <div class="modal--drama2--actors">actors: </div>
+                    <div class="modal--drama2--duration">duration: </div>
+                    <div class="modal--drama2--country-of-origin">countries: </div>
+                    <div class="modal--drama2--box-office">box-office: </div>
+                    <div class="modal--drama2--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+        
             <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres3--image">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres3--image">
                 <div class="drama--pres3--title"><h3>Title</h3></div>
                 <div class="drama--pres3--summary">
-                </div>    
-            </div>
-            
-            <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres4--image">
-                <div class="drama--pres4--title"><h3>Title</h3></div>
-                <div class="drama--pres4--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
 
+            <div class="modal">
+                <div class="modal--drama3 modal--content">
+                    <img src="#" alt="one of the highest rated drama movies" class="modal--drama3--image">
+                    <div class="modal--drama3--title">title: </div>
+                    <div class="modal--drama3--genre">genre: </div>
+                    <div class="modal--drama3--date">release date: </div>
+                    <div class="modal--drama3--MPAA">rated: </div>
+                    <div class="modal--drama3--IMDB">IMDB score: </div>
+                    <div class="modal--drama3--directors">directors: </div>
+                    <div class="modal--drama3--actors">actors: </div>
+                    <div class="modal--drama3--duration">duration: </div>
+                    <div class="modal--drama3--country-of-origin">countries: </div>
+                    <div class="modal--drama3--box-office">box-office: </div>
+                    <div class="modal--drama3--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+                  
             <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres5--image">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres4--image">
+                <div class="drama--pres4--title"><h3>Title</h3></div>
+                <div class="drama--pres4--summary">
+                <button class="btn-open">see info</button>
+                </div>    
+            </div>
+
+            <div class="modal">
+                <div class="modal--drama4 modal--content">
+                    <img src="#" alt="one of the highest rated drama movies" class="modal--drama4--image">
+                    <div class="modal--drama4--title">title: </div>
+                    <div class="modal--drama4--genre">genre: </div>
+                    <div class="modal--drama4--date">release date: </div>
+                    <div class="modal--drama4--MPAA">rated: </div>
+                    <div class="modal--drama4--IMDB">IMDB score: </div>
+                    <div class="modal--drama4--directors">directors: </div>
+                    <div class="modal--drama4--actors">actors: </div>
+                    <div class="modal--drama4--duration">duration: </div>
+                    <div class="modal--drama4--country-of-origin">countries: </div>
+                    <div class="modal--drama4--box-office">box-office: </div>
+                    <div class="modal--drama4--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
+        
+            <div class="drama--pres presentation-box">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres5--image">
                 <div class="drama--pres5--title"><h3>Title</h3></div>
                 <div class="drama--pres5--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--drama5 modal--content">
+                    <img src="#" alt="one of the highest rated drama movies" class="modal--drama5--image">
+                    <div class="modal--drama5--title">title: </div>
+                    <div class="modal--drama5--genre">genre: </div>
+                    <div class="modal--drama5--date">release date: </div>
+                    <div class="modal--drama5--MPAA">rated: </div>
+                    <div class="modal--drama5--IMDB">IMDB score: </div>
+                    <div class="modal--drama5--directors">directors: </div>
+                    <div class="modal--drama5--actors">actors: </div>
+                    <div class="modal--drama5--duration">duration: </div>
+                    <div class="modal--drama5--country-of-origin">countries: </div>
+                    <div class="modal--drama5--box-office">box-office: </div>
+                    <div class="modal--drama5--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
+            
             
             <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres6--image">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres6--image">
                 <div class="drama--pres6--title"><h3>Title</h3></div>
                 <div class="drama--pres6--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
+
+            <div class="modal">
+                <div class="modal--drama6 modal--content">
+                    <img src="#" alt="one of the highest rated drama movies" class="modal--drama6--image">
+                    <div class="modal--drama6--title">title: </div>
+                    <div class="modal--drama6--genre">genre: </div>
+                    <div class="modal--drama6--date">release date: </div>
+                    <div class="modal--drama6--MPAA">rated: </div>
+                    <div class="modal--drama6--IMDB">IMDB score: </div>
+                    <div class="modal--drama6--directors">directors: </div>
+                    <div class="modal--drama6--actors">actors: </div>
+                    <div class="modal--drama6--duration">duration: </div>
+                    <div class="modal--drama6--country-of-origin">countries: </div>
+                    <div class="modal--drama6--box-office">box-office: </div>
+                    <div class="modal--drama6--full-description">description: </div>                
+                    <button class="btn-closed">Close me</button>
+                </div>
+            </div>
             
+                   
             <div class="drama--pres presentation-box">
-                <img src="best_defenders.jpg" alt="best rated movie on IMDB" class="drama--pres7--image">
+                <img src="#" alt="one of the highest rated drama movies" class="drama--pres7--image">
                 <div class="drama--pres7--title"><h3>Title</h3></div>
                 <div class="drama--pres7--summary">
+                <button class="btn-open">see info</button>
                 </div>    
             </div>
         </div>
+
+        <div class="modal">
+            <div class="modal--drama7 modal--content">
+                <img src="#" alt="one of the highest rated drama movies" class="modal--drama7--image">
+                <div class="modal--drama7--title">title: </div>
+                <div class="modal--drama7--genre">genre: </div>
+                <div class="modal--drama7--date">release date: </div>
+                <div class="modal--drama7--MPAA">rated: </div>
+                <div class="modal--drama7--IMDB">IMDB score: </div>
+                <div class="modal--drama7--directors">directors: </div>
+                <div class="modal--drama7--actors">actors: </div>
+                <div class="modal--drama7--duration">duration: </div>
+                <div class="modal--drama7--country-of-origin">countries: </div>
+                <div class="modal--drama7--box-office">box-office: </div>
+                <div class="modal--drama7--full-description">description: </div>                
+                <button class="btn-closed">Close me</button>
+            </div>
+        </div> 
+    
+
     </div>
 
     <script type="module" src="helpers.js"></script>
@@ -239,5 +826,6 @@
     <script type="module" src="thriller_request.js"></script>
     <script type="module" src="scifi_request.js"></script>
     <script type="module" src="drama_request.js"></script>
+    <script type="module" src="control_modal.js"></script>
 </body>
 </html>
