@@ -3,4 +3,4 @@ import {getCategoryMovies} from "./category_movies.js"
 
 
 let tenResults = [];
-getCategoryMovies([bestDramaMoviesQuery, "drama--pres", tenResults]);
+getCategoryMovies([bestDramaMoviesQuery, "drama", tenResults]);
