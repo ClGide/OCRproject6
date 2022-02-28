@@ -1,0 +1,36 @@
+.modal {
+    box-sizing : border-box;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    opacity: 0;
+    pointer-events: none; 
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal--content {
+    background-color: #fff;
+    width: 80vw;
+    max-width: 100%; 
+    padding: 30px 50px;
+    box-shadow: var(--quarternary-color);    
+}
+
+.btn-closed {
+    background-color: var(--secondary-color);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: var(--quarternary-color);
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.modal.show {
+    opacity: 1;
+    pointer-events: auto;
+}
