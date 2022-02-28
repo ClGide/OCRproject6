@@ -3,4 +3,4 @@ import {getCategoryMovies} from "./category_movies.js"
 
 
 let tenResults = [];
-getCategoryMovies([bestSciFiMoviesQuery, "scifi--pres", tenResults]);
+getCategoryMovies([bestSciFiMoviesQuery, "scifi", tenResults]);
