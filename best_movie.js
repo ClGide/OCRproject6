@@ -32,15 +32,6 @@ function showBestMovie(bestMovieResult) {
     const summaryNode = document.createTextNode(summary);
     summaryEl.appendChild(summaryNode);
 
-
-    // Some values are returned as undefined by the API.
-
-    // I am not splitting up this function because I am using the
-    // title and image identifier for the presentation and the modal
-    // window. If I try to define them in another function in the 
-    // module, I get the identifier already defined error. If I try 
-    // define the function in another module, I get the 404ERROR on the import. 
-
     const {date_published, rated, imdb_score, genres,
         directors, actors, duration, countries, 
         worldwide_gross_income, long_description} = bestMovieResult;
@@ -95,3 +86,5 @@ function showBestMovie(bestMovieResult) {
 
 }
  
+
+
