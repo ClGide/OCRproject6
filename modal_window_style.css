@@ -21,6 +21,13 @@
     box-shadow: var(--quarternary-color);    
 }
 
+.btn-open {
+    display: block;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: 0;
+}
+
 .btn-closed {
     background-color: var(--secondary-color);
     border: 0;
