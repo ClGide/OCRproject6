@@ -2,6 +2,10 @@ import {API_URL, short_URL, bestMoviesQuery, getHTML, getHTMLModalWindow} from "
 
 getBestMovie(API_URL + "1" + bestMoviesQuery);
 
+/**
+ * 
+ * @param {String} url used to make the request to OCMovies API. 
+ */
 function getBestMovie(url) {
     fetch(url)
     .then(res => res.json())
@@ -10,6 +14,14 @@ function getBestMovie(url) {
 }
 
 
+/**
+ * Retrieves the ID key from the response object. Makes a request to
+ * get detailed data about that object. Then, inserts that data 
+ * in the HTML through the function showBestMovie. 
+ * 
+ * @param {Object} data the response containing summary data 
+ * on the movie on IMDB. 
+ */
 function getDetailsAndShowBestMovie(data) {
     const bestMovieId = data.results[0]["id"];
 
@@ -19,9 +31,20 @@ function getDetailsAndShowBestMovie(data) {
 
 }
 
+/**
+ * Uses getHTML and getHTMLModalWindow functions to retrieve the HTML 
+ * elements displaying the movie's info. Modifies those element 
+ * through DOM. 
+ * 
+ * @param {Object} bestMovieResult contains detailed data on the 
+ * highest rated movie on IMDB.
+ */
 
 function showBestMovie(bestMovieResult) {
-    
+
+    // Inserting data in the HTML elements corresponding to the summary
+    // presentation of the movie.  
+
     const {title, image_url, description} = bestMovieResult;
      
     const {imageEl, titleEl, summaryEl} = getHTML("best-movie", 1);
@@ -31,6 +54,9 @@ function showBestMovie(bestMovieResult) {
     const summary = description;
     const summaryNode = document.createTextNode(summary);
     summaryEl.appendChild(summaryNode);
+
+    // Inserting data in the HTML elements corresponding to the detailed
+    // presentation of the movie.  
 
     const {date_published, rated, imdb_score, genres,
         directors, actors, duration, countries, 
@@ -86,5 +112,3 @@ function showBestMovie(bestMovieResult) {
 
 }
  
-
-
