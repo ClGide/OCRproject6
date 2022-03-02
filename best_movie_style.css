@@ -3,7 +3,7 @@
     --secondary-color: rgb(161, 132, 69);
     --tertiary-color: rgb(62, 73, 58);
     --quarternary-color: rgb(10, 100, 58);
-    --border-value: 0.25em solid black;    
+    --border-value: 0.2em solid black;    
 }
 
 body {
@@ -42,25 +42,40 @@ h3 {
 
 .best-movie {
     display: grid;
-    height: 25vh;
-    width: 80vw;
+    height: 37vh;
+    width: 60vw;
     border: var(--border-value);
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px;
     grid-gap: 3px;
-    margin:1em 10vh;
+    margin:1em 15vw;
 }
 
 #best-movie--title {
-    grid-column: 1/2;
+    border: var(--border-value);
+    grid-row: 1;
     font-weight: 900;
+    padding: 1em; 
+    border: transparent;
 
+}
+
+#best-movie--button {
+    border:var(--border-value);
+    grid-row:2;
+    padding: 1em;
+    border:transparent;
 }
 
 #best-movie--summary {
-    grid-column: 2/4;
+    border: var(--border-value);
+    grid-row: 3/5;
+    padding: 1em;
+    border: transparent;
 }
 
 #best-movie--image {
-    grid-column: 10/12;
+    border: var(--border-value);
+    min-width: 40%;
+    border:transparent;
 }
 
