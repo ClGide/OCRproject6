@@ -1,5 +1,6 @@
 .category-container {
     display: grid;
+    height: 31vh;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(14, 1fr);
     grid-gap: 3px;
@@ -11,7 +12,7 @@
     grid-row: auto/span 2;
     height: 20vh;
     width: 25vw;
-    border:var(--border-value);    
+    border: transparent;
 }
 
 .category--name {
