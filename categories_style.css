@@ -18,3 +18,7 @@
 .category--name {
     font-style: italic;
 }
+
+.container {
+    padding: 0 20px;
+}
