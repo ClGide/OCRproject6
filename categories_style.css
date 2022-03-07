@@ -4,7 +4,12 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(14, 1fr);
     grid-gap: 3px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.category-container::-webkit-scrollbar {
+    display: none;
 }
 
 .presentation-box {
