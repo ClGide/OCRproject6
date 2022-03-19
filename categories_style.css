@@ -20,6 +20,12 @@
     border: transparent;
 }
 
+.box {
+    display:flex;
+    border: var(--border-value);
+    border-radius: 1em;
+}
+
 .category--name {
     font-style: italic;
 }
