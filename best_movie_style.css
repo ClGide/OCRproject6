@@ -31,8 +31,7 @@ h3 {
     justify-content: space-around;
 }
 
-
-#box {
+.box {
     display:flex;
     border: var(--border-value);
     border-radius: 1em;
